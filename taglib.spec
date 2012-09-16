@@ -12,7 +12,7 @@
 
 Name:       taglib	
 Version:    1.6.1
-Release:    1.1%{?dist}
+Release:    1.1%{?dist}.goose.1
 Summary:    Audio Meta-Data Library
 
 Group: 	    System Environment/Libraries
@@ -153,6 +153,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sun Sep 16 2012 Clint Savage <herlo@gooseproject.org> - 1.6.1-1.1.goose.1
+- Fix issues with missing doc.noarch package
+
 * Fri Nov 13 2009 Dennis Gregorovic <dgregor@redhat.com> - 1.6.1-1.1
 - Fix conditional for RHEL
 
